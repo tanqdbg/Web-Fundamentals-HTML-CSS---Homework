@@ -1,0 +1,32 @@
+html >* {
+	padding: 0;
+}
+
+table {
+	width: 400px;
+	height: auto;
+	border: solid 1px black;
+	margin: auto;
+}
+
+table tr td , table tr th{
+	border: solid 1px black;
+	width: 100px;
+	height: 100px;
+}
+
+input {
+	width: 98%;
+	height: 98%;
+	font-size: 35px;
+	
+	background: -webkit-linear-gradient( #EEEEEE, #BBBBBB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #EEEEEE, #BBBBBB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #EEEEEE, #BBBBBB); /* For Firefox 3.6 to 15 */
+	
+    background: linear-gradient( #EEEEEE, #BBBBBB);
+}
+
+table thead th input {
+	background: white;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fakebook Register Form</title>
+		<meta charset="UTF-8">
+		<link href="styles/problem4_FakebookRegisterForm.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1>fakebook<span> &#174;</span></h1>
+			<h2>Registration</h2>
+			<h4>It is safe and it will always be</h4>
+			<form method="get" action="#">
+			<fieldset id="left-field">
+				<legend>Non-important information</legend>
+				<input type="text" name="first-name" placeholder="First Name">
+				<input type="text" name="last-name" placeholder="Last Name">
+				<input type="email" name="email" placeholder="Your Email">
+				<input type="text" name="phone-number" placeholder="Phone Number">
+				<input type="password" name="password" placeholder="Your Password">
+				<input type="url" name="website" placeholder="Website">
+				<label for="birthday" class="label-birthday">Birthday</label><br/>
+				<input type="datetime-local" id="birthday" value="2014-09-05T13:58">
+				<div id="radio-button">
+					<div><input type="radio" id="female" name="radio"><label for="female">Female</label></div>
+					<div><input type="radio" id="male" name="radio"><label for="male">Male</label></div>
+					<div><input type="radio" id="other" name="radio"><label for="other">Other</label></div>
+				</div>
+			</fieldset>
+			
+			<fieldset id="right-field">
+				<legend>Important information *required</legend>
+				<input list="country" name="country" placeholder="Country" required>
+					<datalist id="country">
+						<option>Bulgaria</option>
+						<option>Germany</option>
+						<option>Italy</option>
+					</datalist>
+					<input type="text" id="village" placeholder="Village" required>
+					<input type="text" id="district" placeholder="District" required>
+					<input type="text" id="street" placeholder="Street" required>
+					<input type="text" id="number" placeholder="Nr" required>
+					<input type="text" id="floor" placeholder="Floor" required>
+					<input type="text" id="ap_Nr" placeholder="Ap Nr" required>
+					<div class="label-door-color">
+						<label for="color">Door Color</label>
+					</div>
+					<input type="color" id="color" value="#FF80C0">
+					<input type="text" id="water-num" placeholder="Water Meter Nr" required>
+					<input list="aunt-panties" name="aunt-panties" placeholder="CountryAunt Panties' Size" required>
+					<datalist id="aunt-panties">
+						<option>XXXL</option>
+						<option>XXL</option>
+						<option>XL</option>
+					</datalist>
+					<div class="label-textarea">
+						<label for="more-info">More persomal information</label>
+					</div>
+					<textarea id="more-info" placeholder="Give Us More Information! ! !" required></textarea>
+			</fieldset>
+			<input type="reset" value="Clear Form">
+			<input type="submit" value="Register">
+		</form>
+		</div>
+		
+		<p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				This document was successfully checked as CSS3!
+			</a><br/>
+			<a href="http://validator.w3.org/check">
+				This document was successfully checked as HTML5!
+			</a>
+		</p>
+	</body>
+</html>

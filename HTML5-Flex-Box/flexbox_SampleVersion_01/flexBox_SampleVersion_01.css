@@ -1,0 +1,130 @@
+body {
+	background:#00FF66;
+}
+
+.wrapper {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.wrapper > *{
+	margin: 5px;
+	padding: 5px;
+	flex: 1 100%;
+}
+
+.header {
+	background: #006666;
+}
+
+h1 {
+	font-size: 1.8em;
+	color: #00CC99;
+}
+
+h2, h3 {
+	text-align: center;
+	color: #000033;
+	margin: 2px;
+}
+
+.nav ul {
+	list-style-type: none;
+	display: -webkit-row;
+	width: 80%;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #000033;
+}
+
+li {
+	background: #00FF00;
+	border: solid 1px #000066;
+	border-radius: 5px;
+	margin:2px 5px;
+	padding: 5px 10px;
+}
+
+li:hover {
+	background: #CCFF99;
+}
+
+.footer {
+	background: #003333;
+	color: #00CC99;
+}
+
+.header, .main, aside , footer {
+	border: solid 0.1em #000033;
+}
+
+.main {
+	background: #00FFFF;
+}
+
+.aside1 {
+	background: #00CC99;	
+}
+
+.aside2 {
+	background: #00FF99;
+}
+
+.aside3 {
+	background: #009999;
+}
+
+.aside4 {
+	background: #339966;
+}
+
+@media all and ( min-width: 600px ) {
+	.nav ul { display: -webkit-box; }
+	.nav1 { flex: 1 15%; }
+	.na2 { flex: 2 15%; }
+	.nav3 { flex: 3 15%; }
+	.nav ul { -webkit-box-pack: center; margin-left: 5%; }
+	
+	.aside1 { flex: 1 45%; }
+	.aside2 { flex: 2 45%; }
+	.aside3 { flex: 1 45%; }
+	.aside4 { flex: 2 45%; }
+	
+	.wrapper { font-size: 22px; }
+	h1 { font-size: 1.8em; }
+	.footer { font-size: 18px; }
+}
+
+@media all and ( min-width: 900px ) {
+	aside { width: 20%; height:auto; }
+	.nav ul { -webkit-box-pack: end; margin-right: 0%; }
+	
+	.aside1 { order: 1; }
+	.main { order: 2; }
+	.aside2 { order: 4; }
+	.aside3 { order: 3; }
+	.aside4 { order: 5; }
+	.footer { order: 6; }
+
+	.aside1 { flex: 1 auto; }
+	.main { flex: 2 50%; }
+	.aside2 { flex: 1 auto; }
+	.aside3 { flex: 1 auto; }
+	.aside4 { flex: 1 auto; }
+	
+	.wrapper { font-size: 27px; }
+	h1 { font-size: 1.8em; text-align: left; margin-left: 10%;}
+	.footer { font-size: 19px; text-align: left;}
+}

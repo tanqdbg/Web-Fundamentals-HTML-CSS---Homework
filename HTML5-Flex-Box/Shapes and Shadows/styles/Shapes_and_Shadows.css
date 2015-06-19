@@ -1,0 +1,428 @@
+html >* {
+	padding: 0;
+}
+
+body {
+	background: white;
+}
+
+#wrapper {
+	font-size: 17px;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	background: -webkit-radial-gradient(circle at 162px 130px, white 12%, #FFF8B7 1%, white 22%, #EDDAD0 90%); /* Safari 5.1-6.0 */
+    background: -o-radial-gradient(circle at 162px 130px, white 12%, #FFF8B7 1%, white 22%, #EDDAD0 90%); /* For Opera 11.6-12.0 */
+    background: -moz-radial-gradient(circle at 162px 130px, white 12%, #FFF8B7 1%, white 22%, #EDDAD0 90%); /* For Firefox 3.6-15 */
+    background: radial-gradient(circle at 162px 130px,
+								white 12%, #FFF8B7 1%,
+								white 22%,
+							    #EDDAD0 90%); /* Standard syntax */
+}
+
+#wrapper #content {
+	box-shadow: 23px 20px 10px #666666;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	width: 80%;
+	height: auto;
+	margin: auto;
+	border: outset 0.1em white;
+	
+	background: rgba(255, 255, 255, 0.3);
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera 
+@-webkit-keyframes mymove {
+    from {background-color: rgba(255, 255, 255, 0.3);}
+    to {background-color: rgba(255, 255, 204, 12.0);}
+}*/
+
+/* Standard syntax */
+@keyframes mymove {
+    from {background-color: rgba(255, 255, 255, 0.3);}
+    to {background-color: rgba(255, 255, 204, 12.0);}
+}
+
+#wrapper > *{
+	flex: 1 100%;
+	margin: 1.6em ;
+	font-family: Tahoma, sans-serif;
+}
+
+#wrapper #content div {
+	margin: 1.6em auto;
+	padding: 4.0em 1.0em;
+	/*border: outset 0.3em;*/
+	box-shadow: 20px 23px 10px #666666;
+	font-size: 1.3em;
+	color: white;
+	text-shadow: 15px 17px 10px #222222;
+}
+
+#wrapper header, #wrapper footer {
+	text-align: center;
+	color: white;
+}
+
+#wrapper header h1 {
+	font-size: 3.0em;
+	text-shadow: 19px 12px 10px #666666;
+}
+
+#wrapper footer a {
+	color: white;
+	text-decoration: none;
+	text-shadow: 11px 13px 10px #222222;
+}
+
+#content .form_01 {
+	background: -webkit-linear-gradient(left top, white, red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, red); /* Standard syntax */
+	border-right: double 0.5em red;
+	border-bottom: double 0.5em red;
+	border-left: solid 0.3em #FFC3C3;
+	border-top: solid 0.3em #FFC3C3;
+}
+
+#content .form_01:hover {
+	border-top-right-radius: 7.5em;
+	background: -webkit-linear-gradient(left top, white, pink); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, pink); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, pink); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, pink); /* Standard syntax */
+	border-right: double 0.5em pink;
+	border-bottom: double 0.5em pink;
+	border-left: solid 0.3em #FFECEC;
+	border-top: solid 0.3em #FFECEC;
+	visibility: visible;
+}
+
+#content .form_02 {
+	background: -webkit-linear-gradient(left top, white, #660099); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #660099); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #660099); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #660099); /* Standard syntax */
+	border-right: solid 0.7em #660099;
+	border-bottom: solid 0.7em #660099;
+	border-left: solid 0.3em #E2CEEC;
+	border-top: solid 0.3em #E2CEEC;
+	border-top-left-radius: 40%;
+}
+
+#content .form_02:hover {
+	border-top-right-radius: 17.5em;
+	border-bottom-left-radius: 17.5em;
+	background: -webkit-linear-gradient(left top, white, #CC0099); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #CC0099); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #CC0099); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #CC0099); /* Standard syntax */
+	border: outset 0.8em #FFECEC;
+	border-bottom: outset 0.8em #CC0099;
+	border-left: outset 0.2em #FFECEC;
+	border-top: outset 0.2em #FFECEC;
+	visibility: visible;
+}
+
+#content .form_03 {
+	background: -webkit-linear-gradient(left top, white, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, blue); /* Standard syntax */
+	border-right: outset 0.5em blue;
+	border-bottom: outset 0.5em blue;
+	border-left: outset 0.2em #D4D4FF;
+	border-top: outset 0.2em #D4D4FF;
+	border-radius: 50%;
+}
+
+#content .form_03:hover {
+	border-radius: 0;
+	background: -webkit-linear-gradient(left top, white, #009966); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #009966); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #009966); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #009966); /* Standard syntax */
+	border-right: ridge 0.5em #009966;
+	border-bottom: ridge 0.5em #009966;
+	border-left: ridge 0.3em #C9EADF;
+	border-top: ridge 0.3em #C9EADF;
+	visibility: visible;
+}
+
+#content .form_04 {
+	background: -webkit-linear-gradient(left top, white, #FFFF00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #FFFF00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #FFFF00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #FFFF00); /* Standard syntax */
+	border-right: outset 0.7em #FFFF00;
+	border-bottom: outset 0.7em #FFFF00;
+	border-left: dashed 0.3em #FFFFB7;
+	border-top: dashed 0.3em #FFFFB7;
+	border-bottom-right-radius: 90%;
+}
+
+#content .form_04:hover {
+	border-radius: 3em;
+	background: -webkit-linear-gradient(left top, white, #FF6600); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #FF6600); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #FF6600); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #FF6600); /* Standard syntax */
+	border: outset 0.5em #FF6600;
+	visibility: visible;
+}
+
+#content .form_05 {
+	background: -webkit-linear-gradient(left top, white, #993300); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #993300); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #993300); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #993300); /* Standard syntax */
+	border-right: double 0.5em #993300;
+	border-bottom: double 0.5em #993300;
+	border-left: dashed 0.3em #EDDAD0;
+	border-top: dashed 0.3em #EDDAD0;
+	border-bottom-left-radius: 90%;
+	border-top-right-radius: 90%;
+}
+
+#content .form_05:hover {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 15.0em;
+	border-bottom-left-radius: 15.0em;
+	background: -webkit-linear-gradient(left top, white, #66FF00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #66FF00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #66FF00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #66FF00); /* Standard syntax */
+	border-right: groove 0.3em #66FF00;
+	border-bottom: groove 0.3em #66FF00;
+	border-left: solid 0.3em #D5FFB9;
+	border-top: groove 0.3em #D5FFB9;
+	visibility: visible;
+}
+
+#content .form_06 {
+	background: -webkit-linear-gradient(left top, white, #006600); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #006600); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #006600); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #006600); /* Standard syntax */
+	border-right: dashed 0.5em #006600;
+	border-bottom: dashed 0.55em #006600;
+	border-left: dashed 0.2em #CADFCA;
+	border-top: dashed 0.2em #CADFCA;
+	border-bottom-left-radius: 60%;
+	border-bottom-right-radius: 60%;
+	border-top-left-radius: 60%;
+}
+
+#content .form_06:hover {
+	border-top-right-radius: 5.0em;
+	border-bottom-right-radius: 15.0em;
+	border-bottom-left-radius: 25.0em;
+	background: -webkit-linear-gradient(left top, white, #CC0099); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #CC0099); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #CC0099); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #CC0099); /* Standard syntax */
+	border-right: solid 0.5em #CC0099;
+	border-bottom: solid 0.55em #CC0099;
+	border-left: solid 0.2em #F9E1F3;
+	border-top: solid 0.2em #F9E1F3;
+	visibility: visible;
+}
+
+#content .form_07 {
+	background: -webkit-linear-gradient(left top, white, #000066); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #000066); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #000066); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #000066); /* Standard syntax */
+	border-right: dotted 0.2em #000066;
+	border-bottom: dotted 0.2em #000066;
+	border-left: dotted 0.5em #D8D8E8;
+	border-top: dotted 0.5em #D8D8E8;
+	border-bottom-right-radius: 60%;
+	border-top-right-radius: 60%;
+}
+
+#content .form_07:hover {
+	border-top-right-radius: 5.0em;
+	border-bottom-right-radius: 15.0em;
+	border-bottom-left-radius: 25.0em;
+	background: -webkit-linear-gradient(left top, white, #660033); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #660033); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #660033); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #660033); /* Standard syntax */
+	border-right: dotted 0.2em #660033;
+	border-bottom: solid 0.2em #660033;
+	border-left: dotted 0.5em #E8D9E0;
+	border-top: dotted 0.5em #E8D9E0;
+	visibility: visible;
+}
+
+#content .form_08 {
+	background: -webkit-linear-gradient(left top, white, #330000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #330000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #330000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #330000); /* Standard syntax */
+	border-right: dotted 0.2em #330000;
+	border-bottom: dotted 0.2em #330000;
+	border-left:  double 0.6em #E8D9E0;
+	border-top: outset 0.6em #E8D9E0;
+	border-radius: 20%;
+	border-bottom-left-radius: 60%;
+}
+
+#content .form_08:hover {
+	border-top-right-radius: 25.0em;
+	border-bottom-right-radius: 3.0em;
+	border-bottom-left-radius: 5.0em;
+	background: -webkit-linear-gradient(left top, white, #CC0033); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #CC0033); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #CC0033); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #CC0033); /* Standard syntax */
+	border-right: dotted 0.2em #CC0033;
+	border-bottom: solid 0.2em #CC0033;
+	border-left: dotted 0.5em #F1B7C6;
+	border-top: dotted 0.5em #F1B7C6;
+	visibility: visible;
+}
+
+#content .form_09 {
+	background: -webkit-linear-gradient(left top, white, #FF9900); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #FF9900); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #FF9900); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #FF9900); /* Standard syntax */
+	border-right: dotted 0.2em #FF9900;
+	border-bottom: dotted 0.2em #FF9900;
+	border-left:  dotted 0.6em #FFE7C3;
+	border-top: outset 0.6em #FFE7C3;
+	border-top-left-radius: 60%;
+	border-top-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+}
+
+#content .form_09:hover {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 3.0em;
+	border-bottom-left-radius: 5.0em;
+	background: -webkit-linear-gradient(left top, white, #00FFFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #00FFFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #00FFFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #00FFFF); /* Standard syntax */
+	border-right: dotted 0.2em #00FFFF;
+	border-bottom: solid 0.2em #00FFFF;
+	border-left: dotted 0.5em #BAFFFF;
+	border-top: dotted 0.5em #BAFFFF;
+	visibility: visible;
+}
+
+@media all and ( min-width: 320px ) {
+	.form_01 { flex: 0 59%; }
+	.form_02 { flex: 0 59%; }
+	.form_03 { flex: 0 59%; }
+	.form_04 { flex: 0 59%; }
+	.form_05 { flex: 0 59%; }
+	.form_06 { flex: 0 59%; }
+	.form_07 { flex: 0 59%; }
+	.form_08 { flex: 0 59%; }
+	.form_09 { flex: 0 59%; }
+	
+	#wrapper #content { font-size: 19px; }
+	#content div { margin: 1.8em ; font-size: 1.3em;}
+	h1 { font-size: 3.0em; }
+}
+
+@media all and ( min-width: 480px ) {	
+	.form_01 { order: 1; }
+	.form_02 { order: 2; }
+	.form_03 { order: 3; }
+	.form_04 { order: 4; }
+	.form_05  { order: 5; }
+	.form_06  { order: 6; }
+	.form_07  { order: 7; }
+	.form_08  { order: 8; }
+	.form_09  { order: 9; }
+	footer { order: 10; }
+
+	.form_01 { flex: 0 41%; }
+	.form_02 { flex: 0 41%; }
+	.form_03 { flex: 0 41%; }
+	.form_04 { flex: 0 41%; }
+	.form_05 { flex: 0 41%; }
+	.form_06 { flex: 0 41%; }
+	.form_07 { flex: 0 41%; }
+	.form_08 { flex: 0 41%; }
+	.form_09 { flex: 0 41%; }
+	
+	#wrapper { font-size: 19px; }
+	h1 { font-size: 4.0em;}
+	#content div { margin: 1.6em auto;}
+	footer { font-size: 0.5em;}
+}
+
+@media all and ( min-width: 768px ) {	
+	.form_01 { order: 1; }
+	.form_02 { order: 2; }
+	.form_03 { order: 3; }
+	.form_04 { order: 4; }
+	.form_05  { order: 5; }
+	.form_06  { order: 6; }
+	.form_07  { order: 7; }
+	.form_08  { order: 8; }
+	.form_09  { order: 9; }
+	footer { order: 10; }
+
+	.form_01 { flex: 0 33%; }
+	.form_02 { flex: 0 33%; }
+	.form_03 { flex: 0 33%; }
+	.form_04 { flex: 0 33%; }
+	.form_05 { flex: 0 33%; }
+	.form_06 { flex: 0 33%; }
+	.form_07 { flex: 0 33%; }
+	.form_08 { flex: 0 33%; }
+	.form_09 { flex: 0 33%; }
+	
+	#wrapper { font-size: 23px; }
+	h1 { font-size: 4.0em;}
+	#content div { margin: 1.6em auto;}
+	footer { font-size: 0.5em;}
+}
+
+@media all and ( min-width: 960px ) {	
+	.form_01 { order: 1; }
+	.form_02 { order: 2; }
+	.form_03 { order: 3; }
+	.form_04 { order: 4; }
+	.form_05  { order: 5; }
+	.form_06  { order: 6; }
+	.form_07  { order: 7; }
+	.form_08  { order: 8; }
+	.form_09  { order: 9; }
+	footer { order: 10; }
+
+	.form_01 { flex: 0 20%; }
+	.form_02 { flex: 0 20%; }
+	.form_03 { flex: 0 20%; }
+	.form_04 { flex: 0 20%; }
+	.form_05 { flex: 0 20%; }
+	.form_06 { flex: 0 20%; }
+	.form_07 { flex: 0 20%; }
+	.form_08 { flex: 0 20%; }
+	.form_09 { flex: 0 20%; }
+	
+	#wrapper { font-size: 27px; }
+	h1 { font-size: 4.0em;}
+	#content div { margin: 1.6em auto; padding: 4.0em 1.0em;}
+	footer { font-size: 0.5em;}
+}

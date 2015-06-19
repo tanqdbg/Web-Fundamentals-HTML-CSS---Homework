@@ -1,0 +1,344 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html body>* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	background: black;
+	font-family: Arial;
+	font-size: 17px;
+}
+
+#wrapper {
+	width: 100%;
+	max-width: 900px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	
+	text-align: right;
+}
+
+header img {
+	width: 100%;
+	height: auto;
+}
+
+#header-title {
+	max-width: 900px;
+	color: white;
+	font-size: 2.0em;
+	text-align: right;
+	position: absolute;
+	right: 7.7em;
+	top: 6.0em;
+}
+
+#main {
+	width: 100%;
+	height: 50.0em;
+	background: white;
+}
+
+footer {
+	width: 100%;
+	height: auto;
+	background: #94CE29;
+}
+
+footer p {
+	padding: 2.3em;
+	padding-left: 10.0em;
+	font-size: 0.9em;
+}
+
+footer p a {
+	text-decoration: none;
+	color: black;
+}
+
+nav {
+	width: 100%;
+	height: 3.6em;
+	background: -webkit-linear-gradient(white, lightgray); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, lightgray); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, lightgray); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, lightgray);
+	border-bottom: ridge 1px white;
+	box-shadow: 1px 5px  5px lightgray;
+}
+
+nav ul li {
+	float: left; 
+	height: 3.3em;
+	background: -webkit-linear-gradient(white, lightgray); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, lightgray); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, lightgray); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, lightgray);
+	padding: 1.3em 1.8em ;
+	border: ridge 1px white;
+	border-bottom: none;
+	border-left: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: gray;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+
+nav ul li:hover {
+	background: gray;
+    -webkit-transition: background-color 1.3s;
+    -moz-transition: background-color 1.3s;
+    -ms-transition: background-color 1.3s;
+    -o-transition: background-color 1.3s;
+    transition: background-color 1.3s;
+}
+
+nav ul li:hover a{
+	color: white;
+}
+
+
+section {
+	width: 75%;
+	height: auto;
+	float: left;
+	margin: auto;
+}
+
+section article {
+	width: 90%;
+	height: auto;
+	margin: 1.5em 2.2em;
+	border: solid 1px lightgray;
+	border-radius: 1.0em;
+	padding: 1.0em;
+}
+
+section article p {
+	color: gray;
+	font-size: 0.7em;
+}
+
+section article #first, section article #second, section article #third {
+	width: 100%;
+	height: auto;
+}
+
+section article .text {
+	width: 70%;
+	height: auto;
+	float: left;
+	padding: 0.5em;
+}
+
+section #welcome h2 {
+	text-transform: uppercase;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #94CE29;
+	padding: 1.0em 0;
+}
+
+section #welcome p span {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+section #products {
+	height: 30.0em;
+}
+
+section #products h2 {
+	font-size: 1.7em;
+	text-transform: capitalize;
+	color: #94CE29;
+	padding: 1.0em 0;
+}
+
+section  #products .image {
+	float: left;
+	width: 27%;
+	height: auto;
+	margin: 0.1em 0.2em;
+}
+
+.image img {
+	width: 100%;
+	height: auto;
+}
+
+section article h3 {
+	text-transform: capitalize;
+	padding-bottom: 1.0em;
+	font-size: 0.9em;
+}
+
+aside {
+	width: 21%;
+	height: auto;
+	float: right;
+	margin-top: 1.5em;
+	margin-right: 2.0em;
+	border: solid 1px lightgray;
+	border-radius: 1.0em;
+	font-size: 0.7em;
+	color: gray;
+	padding: 1.0em;
+	line-height: 1.4em;
+	text-align: left;
+}
+
+aside a {
+color: #94CE29;
+font-size: 1.3em;
+}
+
+#news {
+	background: lightgray;
+}
+
+#messages {
+	line-height: 1.2em;
+}
+
+aside .date {
+	font-weight: bold;
+	font-size: 1.1em;
+	padding-bottom: 0.4em;
+	padding-top: 0.7em;
+}
+
+aside h2 {
+	font-size: 2.3em;
+	text-transform: uppercase;
+	color: #94CE29;
+	font-weight: bold;
+	margin: 1.0em auto;
+}
+
+@media screen and (max-width: 760px) {
+    body {
+        font-size: 15px;
+    }
+	#wrapper {
+	width: 100%;
+	height: auto;}
+	#header-title {
+	font-size: 1.7em;
+	font-weight: bold;
+	position: relative;
+	top: 1%;
+	right: 1%;}
+	header img {
+	width: 100%;
+	height: auto;}
+	nav {
+	width: 40%;
+	margin-top: 0.5em;}
+	nav ul li{
+	width: 100%;
+	margin: auto;
+	font-size: 0.8em;}
+	#main {
+	width: 100%;
+	height: 114.0em;
+	}
+	section {
+	width: 96%;
+	height: auto;
+	margin: auto;}
+	#first, #second, #third {
+	width: 96%;
+	height: auto;
+	display: block;
+	float: left;
+	border-bottom: solid 1px lightgray;
+	border-bottom-left-radius: 1.0em;
+	border-bottom-right-radius: 1.0em;}
+	.image {
+	width: 96%;
+	height: auto;
+	float: left;
+	padding: 0.5em auto;}
+	.image img {
+	width: 100%;}
+	.text {
+	width: 96%;
+	height: auto;
+	float: left;
+	margin: 0.5em auto;}
+	 section article {
+	border: none;}
+	#welcome {
+	border-bottom: solid 1px lightgray;}
+	aside {
+	width: 96%;
+	height: auto;
+	margin: 1.0em;}
+	footer {
+	display: block;
+	font-size: 0.7em;}
+}
+
+@media screen and(max-width: 480px){
+
+}

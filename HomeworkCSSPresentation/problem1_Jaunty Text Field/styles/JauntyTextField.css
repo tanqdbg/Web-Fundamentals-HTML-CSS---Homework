@@ -1,0 +1,115 @@
+html  >* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 54%;
+	height: 280px;
+	margin: 20px auto;
+	border-top: 7px dotted #FFFF00;
+    border-left: 7px dashed #FF0000;
+    border-right: 16px solid #008000;
+    border-bottom: double 10px #0202F7;
+	box-shadow: 23px 20px 12px #3F3F3F;
+	text-align: center;
+	font-family: Tahoma, sans-serif;
+}
+
+#wrapper .wrapper_header p {
+	font-size: 55px;
+	text-transform: uppercase;
+	margin: 19px auto;
+	text-shadow: 13px 14px 12px #ADADAD; 
+}
+
+#ellipse {
+	width: 89%;
+	height: 120px;
+	border: solid 2px #FF1A1A;
+	box-shadow: 0 0 0 3px #FBFD00, 0 0 0 5px #006F21, 0 0 0 8px #0028AE;
+	border-radius: 60px;
+	margin: auto;
+}
+
+#ellipse .ellipse_header > p {
+	font-size: 24.5px;
+	color: #28232D;
+	margin-top: 15px;
+	text-shadow: 12px 11px 12px #ADADAD;
+}
+
+textarea {
+	width: 223px;
+	height: 20px;
+	text-align: center;
+	resize: none;
+	background-color: #D8921A;
+	border: outset 4px #FCA401;
+	overflow: auto;
+	position: relative;
+	bottom: 3px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: black;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: black;
+   font-family: sans-serif;
+   font-size: 19px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: black;
+   font-family: sans-serif;
+   font-size: 19px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: black;
+   font-family: sans-serif;
+   font-size: 19px;
+}
+
+.small_balloon {
+	width: 18px;
+	height: 18px;
+	border: dashed 3px white;
+	border-radius: 50%;
+	background: rgba(128, 128, 128, 0.5);
+	box-shadow: 0 0 0 7px rgba(128, 128, 128, 0.5);
+	position: absolute;
+	left: 65%;
+    top:  194px;
+}
+
+.middle_balloon {
+	width: 31px;
+	height: 31px;
+	border: dashed 3px white;
+	border-radius: 50%;
+	background: rgba(128, 128, 128, 0.5);
+	box-shadow: 0 0 0 6px rgba(128, 128, 128, 0.5);
+	position: absolute;
+	left: 69%;
+	top: 142px;
+}
+
+.large_balloon {
+	width: 137px;
+	height: 69px;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	padding-top: 10px;
+	border: dashed 3px white;
+	border-radius: 40px;
+	background: rgba(128, 128, 128, 0.5);
+	box-shadow: 0 0 0 6px rgba(128, 128, 128, 0.5);
+	position: absolute;
+	left: 73.9%;
+	top: 71px;
+}	
+	

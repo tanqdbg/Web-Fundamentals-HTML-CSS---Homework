@@ -1,0 +1,99 @@
+html >*{
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica;
+}
+
+table {
+	width: 100%;
+	height: 110px;
+	background: #234465;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	text-transform:uppercase;
+	text-align: center;
+}
+
+table form  {
+	width: 450px;
+	padding: 0px;
+}
+
+table form input {
+	height: 24px;
+	width: 280px;
+	padding: 4px;
+	font-size: 16px;
+	padding-left: 10px;
+	border-right: none;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	outline:none;
+	margin-right: -4px;
+	outline: none;
+}
+
+table form a {
+	color: white;
+	text-decoration: none;
+}
+
+table form a:hover {
+	color: orange;
+	text-decoration: underline;
+}
+
+table form button {
+	width: 38px;
+	height: 36px;
+	margin-top: 20px;
+	padding: 12px;
+	border-left: none;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	background-image: url('../Images/search.PNG');
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+table .nav-bar td{
+	padding-bottom: 15px;
+}
+
+table .nav-bar a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+table .nav-bar a:hover {
+	background: #4CA0DB;
+	cursor: pointer;
+}
+
+table .bell {
+	padding-top:13px;
+	text-align: right;
+}
+
+table .bell a {
+	color: white;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+table .bell a img{
+	vertical-align: middle;
+}
+
+table .bell a:hover {
+	color: orange;
+	text-decoration: underline;
+}
+
+p a{
+	color: black;
+	font-size: 10px;
+}

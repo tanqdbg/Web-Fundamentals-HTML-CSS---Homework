@@ -1,0 +1,35 @@
+html >* {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+}
+
+table {
+	border: solid 1px black;
+	margin: auto;
+	font-size: 26px;
+	width: 45%;
+}
+
+table tr td, table tr th {
+	border: solid 1px black;
+	padding: 7px;
+}
+
+table thead th {
+	font-size: 37px;
+}
+
+table tbody tr:nth-child(1){
+	font-weight: bold;
+	text-align: center;
+}
+
+table tfoot td {
+	text-align: right;
+}
+
+p a{
+	color: black;
+	margin: 10px;
+}

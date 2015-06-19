@@ -1,0 +1,81 @@
+html body>* {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, sans-serif;
+	font-size: 17px;
+	color: #2C435B;
+}
+
+#wrapper {
+	width: 63%;
+	height:auto;
+	margin: auto;
+}
+
+#wrapper #content {
+	width: 70%;
+	height: 570px;;
+	float: left;
+	margin-left: 5px;
+}
+
+#wrapper #indicators {
+	width: 27%;
+	height: 570px;
+	border: ridge 1px blue;
+	float: right;
+	margin-left: 5px;
+}
+
+button {
+	width: 31%;
+	height: auto;
+	border: ridge 1px blue;
+	margin:  6px 4px;
+	font-size: 16px;
+	text-align: left;
+	padding: 15px 8px;
+	background: white;
+	border-radius: 6px;
+	color: #2C435B;
+}
+
+button span {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+button .price {
+	width: 48%;
+	height: auto;
+	color: white;
+	background: #2C435B;
+	text-align: center;
+	float: right;
+	margin: 4px;
+	padding: 10px 13px;
+	border-top-left-radius: 8px;
+}
+
+#indicators p {
+	text-align: center;
+}
+#indicators {
+	font-size: 15px;
+}
+
+p a {
+	font-size: 12px;
+}
+
+#indicators .left {
+	float: left;
+}
+
+#indicators .right {
+	float: right;
+}
+
+input[type="range"] {
+	width: 98%;
+}

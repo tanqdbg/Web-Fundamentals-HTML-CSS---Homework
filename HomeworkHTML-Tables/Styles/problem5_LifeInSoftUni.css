@@ -1,0 +1,97 @@
+html >* {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+}
+
+table {
+	border: solid 1px gray;
+	margin: auto;
+	width: 44%;
+	height: auto;
+	font-size: 25px;
+	background: rgba(238, 238, 238, 0.2);
+}
+
+table tr td {
+	border: solid 1px gray;
+	font-weight: bold;
+	padding: 5px 5px;
+}
+
+table thead th {
+	font-size: 70px;
+	padding: 18px;
+	border: solid 1px gray;
+}
+table thead th a {
+	color: #666666;
+}
+
+table a {
+	text-decoration: none;
+	color: gray;
+}
+
+table .Google {
+	padding-bottom: 90px;
+	padding-top: 0;
+	width: 50%;
+}
+
+table .GitHub {
+	text-align: right;
+	padding-bottom: 90px;
+	padding-top: 0;
+	width: 50%;
+}
+
+table .FB {
+	text-align: center;
+	padding-bottom: 90px;
+	padding-top: 0;
+	width: 25%;
+}
+
+table .GMail {
+	padding-right: 0;
+	width: 25%;
+}
+
+table .YouTube {
+	text-align: center;
+	padding-bottom: 0;
+	padding-top: 90px;
+	width: 25%;
+}
+
+table .food {
+	padding-bottom: 0;
+	padding-top: 130px;
+	text-align: right;
+}
+
+table .game {
+	padding-bottom: 0;
+	padding-top: 130px;
+}
+
+#nested {
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+}
+
+#nested td{
+	padding: 30px 0;
+}
+
+table .beer {
+	font-size: 40px;
+	text-align: right;
+	padding: 25px 5px;
+}
+
+table .beer a {
+	color: #666666;
+}

@@ -1,0 +1,146 @@
+html >* {
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	font-family: Tahoma, sans-serif;
+}
+
+#wrapper {
+	width: 64%;
+	height: 1510px;
+	margin: 10px auto;
+	background-image: url(../resources_3/formBackground.jpg);
+	background-repeat: repeat;
+	color: white;
+	border-radius: 10px;
+}
+#wrapper legend {
+	padding-left: 40px;
+	padding-top: 25px;
+	font-size: 35px;
+}
+
+#wrapper fieldset {
+	border: none;
+}
+
+#wrapper .section, #wrapper .radio-section, #wrapper .address-section {
+	background: rgba(255, 255, 255, 0.4);
+	width: 92%;
+	height: 80px;
+	margin: 4px auto;
+	border: solid 1px white;
+	border-radius: 8px;
+}
+
+#wrapper .section {
+	vertical-align: middle;
+}
+
+#wrapper input[type="text"], textarea {
+	width: 400px;
+	height: 45px;
+	font-size: 26px;
+	font-family: sans-serif;
+	border-radius: 6px;
+	margin-right: 75px;
+	margin-top: 10px;
+	float: right;
+	padding-left: 10px;
+	
+}
+
+textarea {
+	height: 165px;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	background: rgba(231, 191, 243, 0.5);
+	border: none;
+	border: inset 2px #4072ad;
+}
+
+ .section label, .address-section label {
+	float: left;
+	font-size: 27px;
+	color: black;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+#wrapper .address-section {
+	height: 198px;
+}
+#wrapper  .radio-section {
+	height: 147px;
+	color: black;
+}
+
+#wrapper  .radio-section p {
+	padding-left: 28px;
+	font-size: 26px;
+}
+
+#wrapper  input[type='radio'] {
+	display: inline-block;
+	float: left;
+	margin: 7px;
+	padding: 10px;
+	width: 21px;
+	height: 21px;
+}
+
+ #visa-section, #amEx-section, #mastercard-section {
+	width: 320px;
+	height: 45px;
+	float: left;
+	position: absolute;
+	top: 980px;
+	font-size: 27px;
+ }
+ 
+ #visa-section {
+	left: 327px;
+ }
+ 
+ #amEx-section {
+	left: 535px;
+ }
+ 
+ #mastercard-section {
+	left: 760px;
+ }
+ 
+#wrapper input[type='submit'] {
+	width: 220px;
+	font-size: 26px;
+	margin: auto;
+	text-transform: uppercase;
+	padding: 15px;
+	border: solid 1px #05132C;
+	border-radius: 30px;
+	color: white;
+	background: #05132C;
+	position: absolute;
+	top: 1432px;
+	right: 590px;
+}
+
+.visa-card, .amEx-card, .master-card {
+	width: 50px;
+	height: 30px;
+	float: left;
+}
+
+.visa-card {
+	background-image: url(../resources_3/visa.png);
+}
+
+.amEx-card {
+	background-image: url(../resources_3/amex.png);
+}
+
+.master-card {
+	background-image: url(../resources_3/mastercard.png);
+}

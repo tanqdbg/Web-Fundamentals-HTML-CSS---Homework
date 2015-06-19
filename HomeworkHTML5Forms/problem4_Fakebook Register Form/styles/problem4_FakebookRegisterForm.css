@@ -1,0 +1,186 @@
+html body>* {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, sans-serif;
+}
+
+#wrapper {
+	width: 63%;
+	height: 550px;
+	margin: auto;
+	text-align: center;
+	background: #3B5B96;
+	color: white;
+}
+
+h1 {
+	font-size: 100px;
+	margin-bottom: -40px;
+}
+
+h1 span {
+	font-size: 14px;
+}
+
+#wrapper h2{
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: -10px;
+}
+
+#wrapper h4{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#left-field {
+	float: left;
+	width: 280px;
+	height: 240px;
+	margin: 5px;
+	margin-left: 24px;
+	border: ridge 1px white;
+	border-radius: 10px;
+}
+
+#right-field {
+	float: left;
+	width: 430px;
+	height: 240px;
+	margin: 6px;
+	margin-left: 29px;
+	border: ridge 1px white;
+	border-radius: 10px;
+}
+
+input {
+	width: 125px;
+	height: 25px;
+	float: left;
+	margin: 3px;
+	border-radius: 6px;
+	padding-left: 5px;
+}
+
+label {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#birthday {
+	width: 72%;
+	height: 25px;
+	font-size: 12px;
+}
+
+#female, #male, #other {
+	width: 13px;
+	height: 13px;
+	margin-right: 0px;
+}
+
+#radio-button>div {
+	float: left;
+	padding-right: 22px;
+}
+
+#radio-button>div>label {
+	padding-left: 5px;
+}
+
+#number, #floor, #ap_Nr {
+	width: 60px;
+	height: 25px;
+}
+
+.label-birthday {
+	margin-right: 205px;
+}
+
+.label-door-color {
+	width: 150px;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.label-textarea{
+	width: 250px;
+	text-align: left;
+	padding-left: 5px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    font-family: sans-serif;
+    text-indent: 3px;
+	font-size: 12px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   font-family: sans-serif;
+   text-indent: 3px;
+   font-size: 12px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   font-family: sans-serif;
+   text-indent: 3px;
+   font-size: 12px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   font-family: sans-serif;
+   text-indent: 3px;
+   font-size: 12px;
+}
+
+textarea {
+	width: 415px;
+	height: 60px;
+	border-radius: 6px;
+}
+
+input[type="reset"] {
+	width: 310px;
+	height: 55px;
+	background: -webkit-linear-gradient(white, gray); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, gray); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, gray); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, gray); /* Standard syntax */
+	margin-left: 25px;
+	font-size: 18px;
+	color: #3B5B96;
+	border: ridge 1px white;
+}
+
+input[type="reset"]:hover {
+	background: -webkit-linear-gradient(white, black); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, black); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, black); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, black); /* Standard syntax */
+	color: white;
+	border: ridge 1px black;
+}
+
+input[type="submit"] {
+	width: 460px;
+	height: 55px;
+	background: -webkit-linear-gradient(white, gray); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, gray); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, gray); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, gray); /* Standard syntax */
+	margin-left: 30px;
+	font-size: 26px;
+	color: #3B5B96;
+	border: ridge 1px white;
+}
+
+input[type="submit"]:hover {
+	background: -webkit-linear-gradient(white, black); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, black); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, black); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, black); /* Standard syntax */
+	color: white;
+	border: ridge 1px black;
+}
+
+a {
+	font-size: 12px;
+}

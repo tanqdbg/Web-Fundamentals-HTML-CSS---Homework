@@ -1,0 +1,179 @@
+/*------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------CSS-Reset-------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------*/
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------End-of-CSS-Reset-------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------*/
+
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+html body>* {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, sans-serif;
+}
+
+#wrapper {
+	width: 65%;
+	height: 430px;
+	background: #F4F4F4;
+	margin: 20px auto;
+	padding-left: 15px;
+}
+
+h1 {
+	font-size: 27px;
+	font-weight: bold;
+	color: #264767;
+	padding: 20px;
+	padding-left: 10px;
+}
+
+#wrapper>p {
+	color: gray;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+#wrapper #left>p {
+	text-transform: uppercase;
+	color: gray;
+	font-weight: bold;
+	font-size: 19px;
+	padding: 20px 10px;
+}
+
+#wrapper #left span {
+	color: #264767;
+}
+
+#wrapper #left {
+	width: 45%;
+	height: 300px;
+	float: left;
+	margin-left: 27px;
+	margin-top: 15px;
+}
+
+#wrapper #right {
+	width:  47%;
+	height: 300px;
+	background: #264767;
+	float: right;
+	margin-right: 27px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+
+#wrapper #right>p {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	padding: 20px 10px;
+	font-size: 19px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	width: 94%;
+	height: 37px;
+	margin: 5px 10px;
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+input[type="submit"] {
+	width: 45%;
+	height: 37px;
+	float: right;
+	margin-right: 15px;
+	margin-top: 5px;
+	border: solid 2px #264767;
+	color: #264767;
+	font-weight: bold;
+}
+
+input[type="checkbox"] {
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+#login {
+	border-color: orange;
+	width: 35%;
+	height: 40px;
+	color: white;
+	background: #264767;
+	font-size: 15px;
+}
+
+#wrapper #right a {
+	position: absolute;
+	color: white;
+	top: 325px;
+	left: 973px;
+	font-size: 13px;
+}
+
+#wrapper #right label {
+	color: white;
+	font-size: 12px;
+	position: absolute;
+	top: 280px;
+	left: 740px;
+}

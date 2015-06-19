@@ -1,0 +1,176 @@
+body >* {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-family: Tahoma;
+}
+
+#wrapper {
+	background: #00923e;
+	margin: auto;
+	width: 1200px;
+	height: 450px;
+	padding-top: 15px;
+}
+
+table {
+	width: 95%;
+	height: 90%;
+	border: solid 1px black;
+	border-radius: 10px;
+	margin: 10px auto;
+	border-spacing: 0;
+}
+
+table td {
+	border: solid 1px black;
+	border-spacing: 0;
+}
+
+table tr td  {
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+table  #header  td:nth-child(1){
+	border-top-left-radius: 10px;
+}
+
+table #header td:nth-child(5){
+	border-top-right-radius: 10px;
+}
+
+table tr:last-child td:nth-child(1){
+	border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:nth-child(8){
+	border-bottom-right-radius: 10px;
+}
+
+table #header {
+	background: orange;
+	font-weight: bold;
+}
+
+table .white-row {
+	background: white;
+}
+
+table .gray-row {
+	background: lightgray;
+}
+
+table tr .right {
+	text-align: right;
+}
+
+table tr .left {
+	text-align: left;
+}
+
+table .bet-red {
+width: 47px;
+height: 47px;
+background: red;
+color: white;
+font-weight: bold;
+border-radius: 50%;
+}
+
+table .bet-green {
+	width: 47px;
+	height: 47px;
+	background: green;
+	color: white;
+	font-weight: bold;
+	border-radius: 50%;
+}
+
+table .team_1, .team_2 {
+	width: 28px;
+	height: 28px;
+	background: #DCDCDC;
+	color: red;
+	font-size: 18px;
+	padding: 5px;
+}
+
+table .team_2 {
+	color: green;
+}
+
+table .team_1:hover, .team_2:hover {
+	background: gray;
+}
+
+#img_Brasil {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Brasil.PNG);
+	float: right;
+}
+
+#img_Mexico {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Mexico.PNG);
+	float: left;
+}
+
+#img_Spain {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Spain.PNG);
+	float: right;
+}
+
+#img_Netherlands {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Netherlands.PNG);
+	float: left;
+}
+
+#img_Italy {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Italy.PNG);
+	float: right;
+}
+
+#img_England {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/England.PNG);
+	float: left;
+}
+
+#img_Argentina {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Argentina.PNG);
+	float: right;
+}
+
+#img_Bosnia {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Bosnia.PNG);
+	float: left;
+}
+
+#img_Germany {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Germany.PNG);
+	float: right;
+}
+
+#img_Portugal {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Portugal.PNG);
+	float: left;
+}

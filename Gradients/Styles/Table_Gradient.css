@@ -1,0 +1,540 @@
+html >* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(black, white); /* Standard syntax */
+}
+
+table {
+	width: 80%;
+	height: auto;
+	margin:10px auto;
+	text-align: center;
+	font-size: 20px;
+	font-family: Tahoma;
+	font-style: italic;
+	padding: 18px;
+	
+	background: -webkit-linear-gradient(white, black); 
+	background: -o-linear-gradient(white, black); 
+	background: -moz-linear-gradient(white, black); 
+	background: linear-gradient(white, black); 
+}
+
+table .info {
+	font-size: 14px;
+}
+
+table h2 {
+	font-size: 36px;
+}
+
+table td {
+	padding: 25px;
+}
+
+table .title, table tfoot .support {
+	font-weight: bold;
+	font-size: 26px;
+}
+
+table tfoot, table tfoot a {
+	color: white;
+}
+
+table .title_1-1 td , table .title_1-2 td, table .title_1-3 td, table .title_1-4 td, table .title_1-5 td, table .title_1-6 td, table .title_1-7 td,
+table .title_2-1 td, table .title_2-2 td, table .title_2-3 td, table .title_2-4 td, table .title_2-5 td {
+	width: 20%;
+	height: 100px;
+	border: solid 1px white;
+	border-top: solid 1px black;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	font-weight: bold;
+}
+
+table th {
+	font-size: 46px;
+}
+
+table span{
+	font-size: 11px;
+}
+
+table .note {
+	font-size: 15px;
+	color: white;
+}
+
+table tfoot #support-nested thead th {
+	font-size: 18px;
+}
+
+table tfoot #support-nested   td {
+	width: 16%;
+	padding: 18px;
+	border: solid 1px white;
+	border-bottom: solid 1px black;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+table tfoot #support-nested, td {
+	width: 95%;
+	height: auto;
+	padding: 5px;
+	font-size: 16px;
+	border: solid 1px white;
+	border-bottom: solid 1px black;
+	border-bottom-left-radius: 70px;
+	border-top-right-radius: 70px;	
+}
+
+table tfoot #support-nested , td:hover {
+	border: solid 1px black;
+	border-bottom: solid 1px white;
+	visibility: visible;
+}
+
+table tfoot #support-nested:hover  {
+	border: solid 1px white;
+	border-top: solid 1px black;
+	border-bottom-left-radius: 70px;
+	border-top-right-radius: 70px;
+	background: -webkit-linear-gradient(black, white);
+	background: -o-linear-gradient(black, white); 
+	background: -moz-linear-gradient(black, white); 
+	background: linear-gradient(black, white);
+	visibility: visible;
+	
+}
+
+/* For 1.1 - Linear Gradient - Top to Bottom */
+table .title_1-1 td:nth-child(1) {
+	background: -webkit-linear-gradient( black, white); 
+	background: -o-linear-gradient( black, white); 
+	background: -moz-linear-gradient( black, white); 
+	background: linear-gradient( black, white);
+}
+
+table .title_1-1 td:nth-child(2) {
+	background: -webkit-linear-gradient( black, blue, white); 
+	background: -o-linear-gradient( black, blue, white); 
+	background: -moz-linear-gradient( black, blue, white); 
+	background: linear-gradient( black, blue, white);
+}
+
+table .title_1-1 td:nth-child(3) {
+	background: -webkit-linear-gradient( black, blue, red, white); 
+	background: -o-linear-gradient( black, blue, red, white); 
+	background: -moz-linear-gradient( black, blue, red, white); 
+	background: linear-gradient( black, blue, red, white);
+}
+
+table .title_1-1 td:nth-child(4) {
+	background: -webkit-linear-gradient( black, blue, red, orange, white); 
+	background: -o-linear-gradient( black,blue, red, orange, white); 
+	background: -moz-linear-gradient( black, blue, red, orange, white); 
+	background: linear-gradient( black, blue, red, orange, white);
+}
+
+table .title_1-1 td:nth-child(5) {
+	background: -webkit-linear-gradient( black, blue, red, orange, yellow, white); 
+	background: -o-linear-gradient( black,blue, red, orange, yellow, white); 
+	background: -moz-linear-gradient( black, blue, red, orange, yellow, white); 
+	background: linear-gradient( black, blue, red, orange, yellow, white);
+}
+
+/* For 1.2 - Linear Gradient - Left to Right */
+table .title_1-2 td:nth-child(1) {
+	background: -webkit-linear-gradient(left, black , white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, black , white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, black , white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, black , white); /* Standard syntax */
+}
+
+table .title_1-2 td:nth-child(2) {
+	background: -webkit-linear-gradient(left, black , blue, white); 
+    background: -o-linear-gradient(right, black , blue, white); 
+    background: -moz-linear-gradient(right, black , blue, white); 
+    background: linear-gradient(to right, black , blue, white); 
+}
+
+table .title_1-2 td:nth-child(3) {
+	background: -webkit-linear-gradient(left, black , blue, red, white); 
+    background: -o-linear-gradient(right, black , blue, red, white); 
+    background: -moz-linear-gradient(right, black , blue, red, white); 
+    background: linear-gradient(to right, black , blue, red, white); 
+}
+
+table .title_1-2 td:nth-child(4) {
+	background: -webkit-linear-gradient(left, black , blue, red, orange, white); 
+    background: -o-linear-gradient(right, black , blue, red, orange, white); 
+    background: -moz-linear-gradient(right, black , blue, red, orange, white); 
+    background: linear-gradient(to right, black , blue, red, orange, white); 
+}
+
+table .title_1-2 td:nth-child(5) {
+	background: -webkit-linear-gradient(left, black , blue, red, orange, yellow, white); 
+    background: -o-linear-gradient(right, black , blue, red, orange, yellow, white); 
+    background: -moz-linear-gradient(right, black , blue, red, ora, yellow, white); 
+    background: linear-gradient(to right, black , blue, red, orange, yellow, white); 
+}
+
+/* For 1.3 - Linear Gradient - Diagonal -> top left-to bottom right */
+table .title_1-3 td:nth-child(1) {
+    background: -webkit-linear-gradient(left top, black , white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, black, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, black, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, black , white); /* Standard syntax */
+}
+
+table .title_1-3 td:nth-child(2) {
+    background: -webkit-linear-gradient(left top, black , blue, white); 
+    background: -o-linear-gradient(bottom right, black, blue, white); 
+    background: -moz-linear-gradient(bottom right, black, blue, white); 
+    background: linear-gradient(to bottom right, black , blue, white); 
+}
+
+table .title_1-3 td:nth-child(3) {
+    background: -webkit-linear-gradient(left top, black , blue, red, white); 
+    background: -o-linear-gradient(bottom right, black, blue, red, white); 
+    background: -moz-linear-gradient(bottom right, black, blue, red, white); 
+    background: linear-gradient(to bottom right, black , blue, red, white); 
+}
+
+table .title_1-3 td:nth-child(4) {
+    background: -webkit-linear-gradient(left top, black , blue, red, orange, white); 
+    background: -o-linear-gradient(bottom right, black, blue, red, orange, white); 
+    background: -moz-linear-gradient(bottom right, black, blue, red, orange, white); 
+    background: linear-gradient(to bottom right, black , blue, red, orange, white); 
+}
+
+table .title_1-3 td:nth-child(5) {
+    background: -webkit-linear-gradient(left top, black , blue, red, orange, yellow, white); 
+    background: -o-linear-gradient(bottom right, black, blue, red, orange, yellow, white); 
+    background: -moz-linear-gradient(bottom right, black, blue, red, orange, yellow, white); 
+    background: linear-gradient(to bottom right, black , blue, red, orange, yellow, white); 
+}
+
+/*For 1.4 - Linear Gradient - Using Angles */
+table .title_1-4 td:nth-child(1) {
+    background: -webkit-linear-gradient(45deg, black, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(45deg, black, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(45deg, black, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(45deg, black, white); /* Standard syntax */
+}
+
+table .title_1-4 td:nth-child(2) {
+    background: -webkit-linear-gradient(60deg, black, blue, white); 
+    background: -o-linear-gradient(60deg, black, blue, white); 
+    background: -moz-linear-gradient(60deg, black, blue, white); 
+    background: linear-gradient(60deg, black, blue, white); 
+}
+
+table .title_1-4 td:nth-child(3) {
+    background: -webkit-linear-gradient(100deg, black, blue, red, white); 
+    background: -o-linear-gradient(100deg, black, blue, red, white); 
+    background: -moz-linear-gradient(100deg, black, blue, red, white); 
+    background: linear-gradient(100deg, black, blue, red, white); 
+}
+
+table .title_1-4 td:nth-child(4) {
+    background: -webkit-linear-gradient(120deg, black, blue, red, orange, white); 
+    background: -o-linear-gradient(120deg, black, blue, red, orange, white); 
+    background: -moz-linear-gradient(120deg, black, blue, red, orange, white); 
+    background: linear-gradient(120deg, black, blue, red, orange, white); 
+}
+
+table .title_1-4 td:nth-child(5) {
+    background: -webkit-linear-gradient(160deg, black, blue, red, orange, yellow, white); 
+    background: -o-linear-gradient(160deg, black, blue, red, orange, yellow, white); 
+    background: -moz-linear-gradient(160deg, black, blue, red, orange, yellow, white); 
+    background: linear-gradient(160deg, black, blue, red, orange, yellow, white); 
+}
+
+/*For 1.5 - Linear Gradient - Using Multiple Color Stops*/
+table .title_1-5 td:nth-child(1) {
+	background: -webkit-linear-gradient(black 40%, white 60%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black 40%, white 60%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black 40%, white 60%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black 30%, white 70%); /* Standard syntax */
+}
+
+table .title_1-5 td:nth-child(2) {
+	background: -webkit-linear-gradient(black 10%, blue 80%, white 90%); 
+    background: -o-linear-gradient(black 10%, blue 80%, white 90%); 
+    background: -moz-linear-gradient(black 10%, blue 80%, white 90%); 
+    background: linear-gradient(black 10%, blue 80%, white 90%);
+}
+
+table .title_1-5 td:nth-child(3) {
+	background: -webkit-linear-gradient(black 10%, blue 70%, red 85%, white 90%); 
+    background: -o-linear-gradient(black 10%, blue 80%, red 85, white 90%); 
+    background: -moz-linear-gradient(black 10%, blue 80%, red 85, white 90%); 
+    background: linear-gradient(black 15%, blue 55%, red 85%, white 95%);
+}
+
+table .title_1-5 td:nth-child(4) {
+	background: -webkit-linear-gradient(black 10%, blue 30%, red 60%, orange 90%, white 90%); 
+    background: -o-linear-gradient(black 10%, blue 30%, red 60%, orange 90%, white 90%); 
+    background: -moz-linear-gradient(black 10%, blue 30%, red 60%, orange 90%, white 90%); 
+    background: linear-gradient(black 10%, blue 30%, red 60%, orange 90%, white 10%);
+}
+
+table .title_1-5 td:nth-child(5) {
+	background: -webkit-linear-gradient(black, black 18%, blue 18%, blue 36%, red 36%, red 54%,orange 54%, orange 72%,yellow 72%, yellow 90%, white 10%); 
+    background: -o-linear-gradient(black, black 18%, blue 18%, blue 36%, red 36%, red 54%,orange 54%, orange 72%,yellow 72%, yellow 90%, white 10%); 
+    background: -moz-linear-gradient(black, black 18%, blue 18%, blue 36%, red 36%, red 54%,orange 54%, orange 72%,yellow 72%, yellow 90%, white 10%); 
+    background: linear-gradient(black, black 18%, blue 18%, blue 36%, red 36%, red 54%,orange 54%, orange 72%,yellow 72%, yellow 90%, white 10%);
+}
+
+/*For 1.6 - Linear Gradient - Using Transparency*/
+table .title_1-6 td:nth-child(1) {
+	background: -webkit-linear-gradient(left,rgba(0,0,0,0),rgba(255,255,255,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,rgba(0,0,0,0),rgba(255,255,255,1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,rgba(0,0,0,0),rgba(255,255,255,1)); /*Fx 3.6-15*/
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(255,255,255,1)); /*Standard*/
+}
+
+table .title_1-6 td:nth-child(2) {
+	background: -webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,255,1),rgba(255,255,255,2)); 
+    background: -o-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,255,1),rgba(255,255,255,2)); 
+    background: -moz-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,255,1),rgba(255,255,255,2));
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,255,1),rgba(255,255,255,2)); 
+}
+
+table .title_1-6 td:nth-child(3) {
+	background: -webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,255,1),rgba(255,0,0,2),rgba(255,255,255,3)); 
+    background: -o-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,255,1),rgba(255,0,0,2),rgba(255,255,255,3)); 
+    background: -moz-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,255,1),rgba(255,0,0,2),rgba(255,255,255,3));
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,255,1),rgba(255,0,0,2),rgba(255,255,255,3)); 
+}
+
+table .title_1-6 td:nth-child(4) {
+	background: -webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,255,1),rgba(255,0,0,2),rgba(255,165,0,3),rgba(255,255,255,4)); 
+    background: -o-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,255,1),rgba(255,0,0,2),rgba(255,165,0,3),rgba(255,255,255,4)); 
+    background: -moz-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,255,1),rgba(255,0,0,2),rgba(255,165,0,3),rgba(255,255,255,4));
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,255,1),rgba(255,0,0,2),rgba(255,165,0,3),rgba(255,255,255,4));
+}
+
+table .title_1-6 td:nth-child(5) {
+	background: -webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,255,1),rgba(255,0,0,2),rgba(255,165,0,3),rgba(255,255,0,4),rgba(255,255,255,5)); 
+    background: -o-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,255,1),rgba(255,0,0,2),rgba(255,165,0,3),rgba(255,255,0,4),rgba(255,255,255,5)); 
+    background: -moz-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,255,1),rgba(255,0,0,2),rgba(255,165,0,3),rgba(255,255,0,4),rgba(255,255,255,5));
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,255,1),rgba(255,0,0,2),rgba(255,165,0,3),rgba(255,255,0,4),rgba(255,255,255,5));
+}
+
+/*For 1.7 - Linear Gradient - Repeating a linear-gradient*/
+table .title_1-7 td:nth-child(1) {
+    background: -webkit-repeating-linear-gradient(black, white 10%);/* Safari 5.1 to 6.0 */
+    background: -o-repeating-linear-gradient(black, white 10%);/* Opera 11.1 to 12.0 */
+    background: -moz-repeating-linear-gradient(black, white 10%);/* Firefox 3.6 to 15 */
+    background: repeating-linear-gradient(black, white 10%); /* Standard syntax */
+}
+
+table .title_1-7 td:nth-child(2) {
+    background: -webkit-repeating-linear-gradient(black, blue 10%, white 20%);
+    background: -o-repeating-linear-gradient(black, blue 10%,white 20%);
+    background: -moz-repeating-linear-gradient(black, blue 10%,white 20%);
+    background: repeating-linear-gradient(black, blue 10%,white 20%); 
+}
+
+table .title_1-7 td:nth-child(3) {
+    background: -webkit-repeating-linear-gradient(black, blue 20%, red 30%,white 40%);
+    background: -o-repeating-linear-gradient(black, blue 20%,red 30%,white 40%);
+    background: -moz-repeating-linear-gradient(black, blue 20%,red 30%,white 40%);
+    background: repeating-linear-gradient(black, blue 20%,red 30%,white 40%); 
+}
+
+table .title_1-7 td:nth-child(4) {
+    background: -webkit-repeating-linear-gradient(black, blue 20%, red 30%,orange 40%,white 50%);
+    background: -o-repeating-linear-gradient(black, blue 20%,red 30%,orange 40%,white 50%);
+    background: -moz-repeating-linear-gradient(black, blue 20%,red 30%,orange 40%,white 50%);
+    background: repeating-linear-gradient(black, blue 20%,red 30%,orange 40%,white 50%); 
+}
+
+table .title_1-7 td:nth-child(5) {
+    background: -webkit-repeating-linear-gradient(black, blue 20%, red 30%,orange 40%,yellow 50%,white 60%);
+    background: -o-repeating-linear-gradient(black, blue 20%,red 30%,orange 40%,yellow 50%,white 60%);
+    background: -moz-repeating-linear-gradient(black, blue 20%,red 30%,orange 40%,yellow 50%,white 60%);
+    background: repeating-linear-gradient(black, blue 20%,red 30%,orange 40%,yellow 50%,white 60%); 
+}
+
+/*For 2.1 - Radial Gradient - Evenly Spaced Color Stops (this is default)*/
+table .title_2-1 td:nth-child(1) {
+	background: -webkit-radial-gradient(black, white); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(black, white); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(black, white); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(black, white); /* Standard syntax */
+}
+
+table .title_2-1 td:nth-child(2) {
+	background: -webkit-radial-gradient(black, blue, white); 
+    background: -o-radial-gradient(black, blue, white); 
+    background: -moz-radial-gradient(black, blue, white); 
+    background: radial-gradient(black, blue, white); 
+}
+
+table .title_2-1 td:nth-child(3) {
+	background: -webkit-radial-gradient(black, blue, red, white); 
+    background: -o-radial-gradient(black, blue, red, white); 
+    background: -moz-radial-gradient(black, blue, red, white); 
+    background: radial-gradient(black, blue, red, white); 
+}
+
+table .title_2-1 td:nth-child(4) {
+	background: -webkit-radial-gradient(black, blue, red, orange, white); 
+    background: -o-radial-gradient(black, blue, red, orange, white); 
+    background: -moz-radial-gradient(black, blue, red, orange, white); 
+    background: radial-gradient(black, blue, red, orange, white); 
+}
+
+table .title_2-1 td:nth-child(5) {
+	background: -webkit-radial-gradient(black, blue, red, orange, yellow, white); 
+    background: -o-radial-gradient(black, blue, red, orange, yellow, white); 
+    background: -moz-radial-gradient(black, blue, red, orange, yellow, white); 
+    background: radial-gradient(black, blue, red, orange, yellow, white); 
+}
+
+/*For 2.2 -Radial Gradient - Differently Spaced Color Stops*/
+table .title_2-2 td:nth-child(1) {
+	background: -webkit-radial-gradient(white 45%, black 5%, white 50%); /* Safari 5.1-6.0 */
+    background: -o-radial-gradient(white 45%, black 5%, white 50%); /* For Opera 11.6-12.0 */
+    background: -moz-radial-gradient(white 45%, black 5%, white 50%); /* For Firefox 3.6-15 */
+    background: radial-gradient(white 45%, black 5%, white 50%); /* Standard syntax */
+}
+
+table .title_2-2 td:nth-child(2) {
+	background: -webkit-radial-gradient(black 5%, blue 10%, white 75%);
+    background: -o-radial-gradient(black 5%, blue 10%, white 75%); 
+    background: -moz-radial-gradient(black 5%, blue 10%, white 75%);
+    background: radial-gradient(black 5%, blue 10%, white 75%); 
+}
+
+table .title_2-2 td:nth-child(3) {
+	background: -webkit-radial-gradient(black 5%, blue 15%, red 35%, white 85%); 
+    background: -o-radial-gradient(black 5%, blue 15%, red 35%, white 85%); 
+    background: -moz-radial-gradient(black 5%, blue 15%, red 35%, white 85%); 
+    background: radial-gradient(black 5%, blue 15%, red 35%, white 85%); 
+}
+
+table .title_2-2 td:nth-child(4) {
+	background: -webkit-radial-gradient(black 5%, blue 20%, red 35%, orange 50%, white 1%); 
+    background: -o-radial-gradient(black 5%, blue 20%, red 35%, orange 50%, white 1%); 
+    background: -moz-radial-gradient(black 5%, blue 20%, red 35%, orange 50%, white 1%); 
+    background: radial-gradient(black 5%, blue 20%, red 35%, orange 50%, white 1%); 
+}
+
+table .title_2-2 td:nth-child(5) {
+	background: -webkit-radial-gradient(black 2%, blue 4%, red 8%, orange 16%, yellow 32%, white 64%); 
+    background: -o-radial-gradient(black 2%, blue 4%, red 8%, orange 16%, yellow 32%, white 64%); 
+    background: -moz-radial-gradient(black 2%, blue 4%, red 8%, orange 16%, yellow 32%, white 64%); 
+    background: radial-gradient(black 2%, blue 4%, red 8%, orange 16%, yellow 32%, white 64%); 
+}
+
+/*For 2.3 - Radial Gradient - Set Shape (circle)*/
+table .title_2-3 td:nth-child(1) {
+	background: -webkit-radial-gradient(circle, black, white); /* Safari */
+    background: -o-radial-gradient(circle, black, white); /* Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, black, white); /* Firefox 3.6 to 15 */
+    background: radial-gradient(circle, black, white); /* Standard syntax */
+}
+
+table .title_2-3 td:nth-child(2) {
+	background: -webkit-radial-gradient(circle, black, blue, white); 
+    background: -o-radial-gradient(circle, black, blue, white); 
+    background: -moz-radial-gradient(circle, black, blue, white); 
+    background: radial-gradient(circle, black, blue, white); 
+}
+
+table .title_2-3 td:nth-child(3) {
+	background: -webkit-radial-gradient(circle, black, blue, red, white); 
+    background: -o-radial-gradient(circle, black, blue, red, white); 
+    background: -moz-radial-gradient(circle, black, blue, red, white); 
+    background: radial-gradient(circle, black, blue, red, white); 
+}
+
+table .title_2-3 td:nth-child(4) {
+	background: -webkit-radial-gradient(circle, black, blue, red, orange, white); 
+    background: -o-radial-gradient(circle, black, blue, red, orange, white); 
+    background: -moz-radial-gradient(circle, black, blue, red, orange, white); 
+    background: radial-gradient(circle, black, blue, red, orange, white); 
+}
+
+table .title_2-3 td:nth-child(5) {
+	background: -webkit-radial-gradient(circle, black, blue, red, orange, yellow, white); 
+    background: -o-radial-gradient(circle, black, blue, red, orange, yellow, white); 
+    background: -moz-radial-gradient(circle, black, blue, red, orange, yellow, white); 
+    background: radial-gradient(circle, black, blue, red, orange, yellow, white); 
+}
+
+/*For 2.4 - Repeating a radial-gradient*/
+table .title_2-4 td:nth-child(1) {
+	background: -webkit-repeating-radial-gradient(black, white 10%); /* For Safari 5.1 to 6.0 */
+	background: -o-repeating-radial-gradient(black, white 10%);/* For Opera 11.6 to 12.0 */
+	background: -moz-repeating-radial-gradient(black, white 10%); /* For Firefox 3.6 to 15 */
+	background: repeating-radial-gradient(black, white 10%);  /* Standard syntax */
+}
+
+table .title_2-4 td:nth-child(2) {
+	background: -webkit-repeating-radial-gradient(black, blue 5%, white 10%); 
+	background: -o-repeating-radial-gradient(black, blue 5%, white 10%);
+	background: -moz-repeating-radial-gradient(black, blue 5%, white 10%); 
+	background: repeating-radial-gradient(black, blue 5%, white 10%); 
+}
+
+table .title_2-4 td:nth-child(3) {
+	background: -webkit-repeating-radial-gradient(black, blue 5%, red 10%, white 15%); 
+	background: -o-repeating-radial-gradient(black, blue 5%, red 10%, white 15%);
+	background: -moz-repeating-radial-gradient(black, blue 5%, red 10%, white 15%); 
+	background: repeating-radial-gradient(black, blue 5%, red 10%, white 15%); 
+}
+
+table .title_2-4 td:nth-child(4) {
+	background: -webkit-repeating-radial-gradient(black, blue 5%, red 10%, orange 15%, white 20%); 
+	background: -o-repeating-radial-gradient(black, blue 5%, red 10%, orange 15%, white 20%);
+	background: -moz-repeating-radial-gradient(black, blue 5%, red 10%, orange 15%, white 20%); 
+	background: repeating-radial-gradient(black, blue 5%, red 10%, orange 15%, white 20%); 
+}
+
+table .title_2-4 td:nth-child(5) {
+	background: -webkit-repeating-radial-gradient(black, blue 5%, red 10%, orange 15%, yellow 20%, white 25%); 
+	background: -o-repeating-radial-gradient(black, blue 5%, red 10%, orange 15%, yellow 20%, white 25%);
+	background: -moz-repeating-radial-gradient(black, blue 5%, red 10%, orange 15%, yellow 20%, white 25%); 
+	background: repeating-radial-gradient(black, blue 5%, red 10%, orange 15%, yellow 20%, white 25%); 
+}
+
+/*For 2.5 - Radial Gradient - Use of Different Size Keywords*/
+table .title_2-5 td:nth-child(1) {/*closest-side*/
+	background: -webkit-radial-gradient(60% 55%, closest-side,black,white); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(60% 55%, closest-side,black,white); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(60% 55%, closest-side,black,white); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(closest-side at 60% 55%,black,white);  /* Standard syntax */
+}
+
+table .title_2-5 td:nth-child(2) {/*farthest-side*/
+    background: -webkit-radial-gradient(60% 55%, farthest-side,black,blue,white); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(60% 55%, farthest-side,black,blue,white);  /* Opera 11.6 to 12.0 */ 
+    background: -moz-radial-gradient(60% 55%, farthest-side,black,blue,white);  /* For Firefox 3.6 to 15 */
+    background: radial-gradient(farthest-side at 60% 55%,black,blue,white);  /* Standard syntax */
+}
+
+table .title_2-5 td:nth-child(4) {/*closest-corner*/
+    background: -webkit-radial-gradient(60% 55%, closest-corner,black,blue,red,orange,white); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(60% 55%, closest-corner,black,blue,red,orange,white); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(60% 55%, closest-corner,black,blue,red,orange,white); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(closest-corner at 60% 55%,black,blue,red,orange,white); /* Standard syntax (must be last) */
+}
+
+table .title_2-5 td:nth-child(5) {/*farthest-corner*/
+	background: -webkit-radial-gradient(60% 55%, farthest-corner,black,blue,red,orange,yellow,white); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(60% 55%, farthest-corner,black,blue,red,orange,yellow,white); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(60% 55%, farthest-corner,black,blue,red,orange,yellow,white); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(farthest-corner at 60% 55%,black,blue,red,orange,yellow,white); /* Standard syntax (must be last) */
+}

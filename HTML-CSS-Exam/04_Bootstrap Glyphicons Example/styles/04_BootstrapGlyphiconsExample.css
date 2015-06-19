@@ -1,0 +1,137 @@
+body, div, h2, label, input, button, textarea, span{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FFF3A8;
+	font-family: 'Tangerine', Arial, serif;
+	font-size: 22px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+	body #wrapper {
+		width: 400px;
+		background: #FCC994;
+		margin: 10px auto;
+		display: block;
+		border: inset 2px #B27957;
+		border-radius: 10px;
+		padding: 10px;
+		box-shadow: 0 0 14px black;
+	}
+
+		body #wrapper form h2 {
+			border-bottom: 1px dotted gray;
+			margin-bottom: 20px;
+		}
+
+		body #wrapper form h2 span {
+			color: #B27957;
+		}
+
+		body #wrapper form h2 {
+			font-size: 35px;
+			font-weight: bold;
+			color: #B27957;
+		}
+
+		body #wrapper form input:not([type=search]) {
+			width: 380px;
+			margin-bottom: 10px;
+			padding-left: 10px;	
+			border-color: #B27957;
+			border-radius: 5px;
+			color: #E48761;
+			box-shadow: 4px 4px 4px #aaa;
+			outline: none;
+		}
+
+		body #wrapper form input[type=search] {
+			padding-left: 10px;
+			margin: 10px 0 20px 10px;
+			border-color: #B27957;
+			border-right: none;
+			border-radius: 5px;
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+			color: #E48761;
+			box-shadow: 4px 4px 4px #aaa;
+			outline: none;
+		}
+
+		body #wrapper form textarea {
+			padding: 10px;
+			border: inset 2px #B27957;
+			border-radius: 5px;
+			color: black;
+			box-shadow: 4px 4px 4px #aaa;
+			outline: none;
+		}
+
+		body #wrapper form button {
+			margin-left: -5px;
+			margin-top: 10px;
+			padding-left: 5px;
+			border-color: #B27957;
+			border-radius: 5px;
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+			box-shadow: 4px 4px 4px #aaa;
+			color: #E48761;
+			font-weight: bold;
+		}
+
+			body #wrapper form button:hover, input[type=submit]:hover {
+				background: #B27957;
+				color: white;
+			}
+
+				body #wrapper form button span:hover {
+					color: white;
+				}
+
+		body #wrapper form span, body #wrapper form label{
+			font-size: 23px;
+			color: #E48761;
+			padding: 0 5px;
+		}
+
+			body #wrapper form button span {
+				font-size: 14px;
+			}
+
+		body #wrapper form input[type=submit] {
+			width: 150px;
+			height: 45px;
+			font-size: 35px;
+			font-weight: bold;
+			color: #E48761;
+			margin: 10px auto;
+		}
+
+			body #wrapper form input:focus, body #wrapper form textarea:focus {
+				background: #FFF6D2;
+			}
+
+@media(max-width: 400px){
+	body #wrapper {
+	width: 100%;
+	margin: 0;
+	padding: 10px 2px;
+	}
+	
+		body #wrapper form h2{
+			text-align: center;
+		}
+		
+		body #wrapper form input:not([type=search]){
+			width: 100%;
+			margin: 0;
+		}
+			body #wrapper form textarea {
+				width: 100%;
+				margin: 0;
+			}
+}

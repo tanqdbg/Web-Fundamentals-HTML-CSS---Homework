@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Form</title>
+		<meta charset="UTF-8">
+		<link href="styles/problem1_SimpleForm.css" rel="styleSheet">
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<h1>Enter the system</h1>
+			<p>It is necessary to login in Your account in order to sign in for a course.</p>
+			<div id="left">
+				<p>are you new? <span>register</span></p>
+				<form method="post" action="#" name="register">
+					<input type="text" name="user-name" placeholder="User name" required>
+					<input type="email" name="email" placeholder="Email" required>
+					<input type="password" name="password" placeholder="Password" required>
+					<input type="password" name="confirm-password" placeholder="Confirm Password" >
+					<input type="submit" name="register" value="Register">
+				</form>
+			</div>
+			<div id="right">
+				<p>already a student? login</p>
+				<form method="post" action="#" name="login">
+					<input type="text" name="user-name" placeholder="User name" required>
+					<input type="password" name="password" placeholder="Password" required>
+					<input type="checkbox" name="remember_me" value="yes" id="remember_me">
+					<label for="remember_me">Remember me</label>
+					<input type="submit" name="login" value="Login" id="login">
+				</form>
+				<a href="#">Forgot Password</a>
+			</div>
+		</div>
+		<p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				This document was successfully checked as CSS3!
+			</a>
+		</p>
+		<p>
+			<a href="http://validator.w3.org/check" >
+				This document was successfully checked as HTML5!
+			</a>
+		</p>
+	</body>	
+</html>

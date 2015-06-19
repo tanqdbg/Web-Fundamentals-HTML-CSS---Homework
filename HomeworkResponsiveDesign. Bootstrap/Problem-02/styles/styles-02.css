@@ -1,0 +1,213 @@
+html body>* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	max-width: 1599px;
+	height: auto;
+	background-image: url(../images/background-flowers.jpg);
+	background-repeat: repeat;
+	font-size: 16px;
+	font-family: Tahoma, sans-serif;
+}
+
+#wrapper {
+	width: 60%;
+	height: auto;
+	margin: auto;
+	
+	 -ms-box-orient: horizontal;
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -moz-flex;
+	  display: -webkit-flex;
+	  display: flex;
+	  
+	  -webkit-justify-content: space-between;
+	  justify-content: space-between;
+	  -webkit-flex-flow: row wrap;
+	  flex-flow: row wrap;
+	  -webkit-align-items: stretch;
+	  align-items: stretch;
+}
+
+#wrapper>header, aside, section, footer {
+	background: rgba(255, 227, 229, 0.7);
+	border: solid 1px black;
+}
+
+#wrapper>header {
+	flex: 1 100%;
+	height: auto;
+	order: -1;
+	padding: 1.0em;
+	margin-bottom: 2.5em;
+}
+
+#wrapper>header h1 a {
+    display: flex;
+    justify-content: space-between;
+	text-decoration: none;
+}
+
+#wrapper>header h1 img {
+	width: 28%;
+	height: 10%;
+}
+
+#wrapper>header span {
+	font-size: 1.5em;
+	color: black;
+}
+
+#wrapper>header nav ul {
+	display: flex;
+    justify-content: flex-end;
+	list-style-type: none;
+}
+
+#wrapper>header nav ul li{
+	border: solid 1px black;
+	background: #eb2a7b;
+	padding: 0.8em 2.2em;
+	margin-left: 2%;
+}
+
+#wrapper>header nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+#wrapper .left {
+	width: 18%;
+	order: 1;
+	padding-right: 0.5em;
+}
+
+#wrapper .left ul {
+	list-style-type: none;
+	margin-left: -1.5em;
+}
+
+#wrapper .left ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#wrapper section {
+	width: 56%;
+	height: 46%;
+	order: 2;
+}
+
+#wrapper section div {
+	width: 100%;
+	height: auto;
+	padding: 0 0.6em;
+	margin-top: -2.0em;
+}
+
+#wrapper section div img {
+	width: 23%;
+	height: auto;
+	margin: 0.2em auto;
+}
+
+#wrapper section article header h1 {
+	font-size: 1.6em;
+	margin-left: 0.6em;
+}
+
+#wrapper .right {
+	width: 18%;
+	order: 3;
+	padding-right: 0.5em;
+}
+
+#wrapper .right ul {
+	list-style-type: none;
+	margin-left: -1.5em;
+}
+
+#wrapper footer {
+	flex: 1 100%;
+	order: 4;
+	margin-top: 1.0em;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+#wrapper footer a {
+	color: black;
+}
+
+
+@media all and (max-width: 960px) {
+	body {
+	font-size: 15px;}
+	#wrapper {
+	width: 100%;}
+	#wrapper section {
+	height: 100%;}
+	#wrapper section div img {
+	width: 30%;}
+	#wrapper section div img:last-child {
+	margin-left: 30.7%;}
+}
+
+@media all and (max-width: 780px) {
+	body {
+	font-size: 14px;}
+	#wrapper section {
+	flex: 1 100%;
+	order: 1;
+	margin-bottom: 0.5em;
+	margin-left: 0;}
+	#wrapper .left {
+	flex: 1 100%;
+	order: 2;
+	margin-bottom: 0.5em;
+	margin-left: 0;}
+	#wrapper .right {
+	flex: 1 100%;
+	order: 3;
+	margin-left: 0;
+	margin-bottom: 0.5em;}
+	#wrapper footer {
+	flex: 1 100%;
+	order: 4;
+	margin: 0;}
+	#wrapper>header nav ul {
+	 /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;}
+}
+
+@media all and (max-width: 450px) {
+	#wrapper>header {
+	padding: 0;}
+	#wrapper>header h1 a{
+	width: 90%;
+	flex-direction: column;
+	text-align: center;
+	margin-bottom: 1.0em;
+	font-size: 1.0em;
+	align-items: center;
+	height: 4.0em;}
+	#wrapper>header h1 img {
+	width: 50%;
+	height: 45%;}
+  #wrapper>header nav ul {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+	text-align: center;
+	width: 90%;
+	margin-left: -2.0em;}
+	#wrapper section article img {
+	width: 45%;}
+	#wrapper section article img:last-child {
+	margin-left: 0.1em;}
+}
